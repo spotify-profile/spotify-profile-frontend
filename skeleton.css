@@ -1,0 +1,31 @@
+.songDiv {
+    display: flex;
+    border-style: solid;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.centerDiv {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sideDiv {
+    flex: 1;
+    width: 50%;
+    display: inline;
+}
+
+.headerDiv {
+    display: flex;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
